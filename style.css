@@ -1,0 +1,99 @@
+h1,h2,h3 {
+  text-align: center;
+}
+
+h2 {
+  color: rgb(69, 64, 121);
+  font-weight: bold;
+  font-size: 40px;
+}
+h3 {
+  text-transform: uppercase;
+  padding-right: 25px;
+}
+h3:hover {
+  color: aliceblue;
+}
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-image: url('background.jpg');
+  background-position: center;  
+}
+
+
+.websize {
+  padding: 150px;
+}
+
+section {
+  margin: 0 auto;
+  width: 1000px;
+  background: rgba(135, 210, 245, 0.8);
+  border: 10px;
+  line-height: 30px;
+  border-top:4px dotted cyan;
+  border-left:4px dotted cyan;
+  border-right:4px dotted cyan;
+  border-bottom:4px dotted cyan ;
+  border-color: rgb(122, 122, 122);
+}
+
+.name {
+  font-size: 80px;
+  text-align: center;
+  padding: 30px;
+  width: 1200px;
+  color: rgb(42, 38, 68);
+  position:sticky;
+}
+ .name:hover {
+  border-color: rgb(17, 0, 255);
+ }
+
+.Eposition {
+  padding: 30px;
+}
+
+.Eposition:hover {
+  border-color: rgb(17, 0, 255);
+}
+
+
+.location {
+  font-weight: bold;
+  font-size: x-large;
+}
+.location:hover {
+  color:aliceblue;
+}
+
+.Sdescription {
+  display: flex;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+.Sdescription:hover {
+  border-color: rgb(17, 0, 255);
+}
+
+.skills {
+  flex-grow: 1;
+  flex-basis: 0;
+  margin: 35px;
+}
+
+.educationtext {
+font-size:large;
+}
+
+.Pdescription {
+  font-size: large;
+  display: flex;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.Pdescription:hover {
+  border-color: rgb(17, 0, 255);
+}
+
