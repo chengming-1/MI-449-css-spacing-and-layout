@@ -23,14 +23,13 @@ body {
 
 .websize {
   padding: 150px;
+  text-align: center;
 }
 
 section {
   margin: 0 auto;
-  width: 1000px;
   background: rgba(135, 210, 245, 0.8);
   border: 10px;
-  line-height: 30px;
   border-top:4px dotted cyan;
   border-left:4px dotted cyan;
   border-right:4px dotted cyan;
@@ -42,7 +41,6 @@ section {
   font-size: 80px;
   text-align: center;
   padding: 30px;
-  width: 1200px;
   color: rgb(42, 38, 68);
   position:sticky;
 }
@@ -52,6 +50,8 @@ section {
 
 .Eposition {
   padding: 30px;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .Eposition:hover {
@@ -59,10 +59,16 @@ section {
 }
 
 
+.educationtext {
+  font-size:large;
+}
+
 .location {
   font-weight: bold;
   font-size: x-large;
+  margin: 0 auto;
 }
+
 .location:hover {
   color:aliceblue;
 }
@@ -71,24 +77,24 @@ section {
   display: flex;
   padding-right: 35px;
   padding-left: 35px;
+  flex-wrap: wrap;
+  text-align: center;
 }
+
 .Sdescription:hover {
   border-color: rgb(17, 0, 255);
 }
 
 .skills {
   flex-grow: 1;
-  flex-basis: 0;
-  margin: 35px;
+  flex-basis: 0 px;
+  margin: 35px; 
 }
 
-.educationtext {
-font-size:large;
-}
 
 .Pdescription {
+  display: block;
   font-size: large;
-  display: flex;
   padding-right: 35px;
   padding-left: 35px;
 }
